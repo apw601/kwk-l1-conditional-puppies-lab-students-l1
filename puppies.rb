@@ -28,7 +28,7 @@ puts less_puppies(4)
 def some_puppies(number, max_allowance)
   if number < 0.5*max_allowance
     "Good job"
-  else number > 0.5*max_allowance
+  else
     "Get back on your puppy restriction!"
   end
 end
